@@ -8,3 +8,7 @@ org bank0_free_space
     jsl run_timer
     ; restore hijacked instruction
     jmp $8d70
+
+org bank2_boss_final_hit_hijack
+    jsl send_final_hit_message
+    nop 
