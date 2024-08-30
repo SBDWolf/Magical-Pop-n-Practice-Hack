@@ -19,14 +19,14 @@ bank0_free_space = $00ec30 ; not 100% sure this is free space...
 !final_boss_health = $051c
 
 ; new ram
-!timer_current_minutes = $7ef000
-!timer_current_seconds = $7ef002
-!timer_current_frames = $7ef004
-!timer_previous_minutes = $7ef006
-!timer_previous_seconds = $7ef008
-!timer_previous_frames = $7ef00a
-!timer_level_minutes = $7ef00c
-!timer_level_seconds = $7ef00e
-!timer_level_frames = $7ef010
-!previous_scene = $7ef012
-!final_hit_message = $7ef014
+!timer_current_minutes = $7eafd0
+!timer_current_seconds = $7eafd2
+!timer_current_frames = $7eafd4
+!timer_previous_minutes = $7eafd6
+!timer_previous_seconds = $7eafd8
+!timer_previous_frames = $7eafda
+!timer_level_minutes = $7eafdc
+!timer_level_seconds = $7eafde
+!timer_level_frames = $7eafe0
+!previous_scene = $7eafe2
+!final_hit_message = $7eafe4

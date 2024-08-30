@@ -1,4 +1,4 @@
-set rom_version=1.0
+set rom_version=1.1
 set rom_name=pop'n_prac_v%rom_version%.sfc
 
 IF NOT EXIST rom_output mkdir rom_output
